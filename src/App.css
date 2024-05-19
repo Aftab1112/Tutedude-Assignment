@@ -7,10 +7,6 @@
   box-sizing: border-box;
 }
 
-.App {
-  text-align: center;
-}
-
 .header {
   background: #f5f5f5;
   padding: 20px 0;
@@ -51,7 +47,7 @@
 .signup-btn {
   background-color: purple;
   color: white;
-  border-radius: 15px;
+  border-radius: 14px;
   transition: 0.5s;
 }
 
@@ -104,4 +100,155 @@
 
 .nav-links-content a:hover::after {
   width: 100%;
+}
+
+.hero-section {
+  padding: 25px 20px;
+  background: #f9f9f9;
+}
+
+.hero-content {
+  max-width: 800px;
+  margin: auto 100px;
+  text-align: left;
+}
+
+.initiative-tag {
+  font-size: 15px;
+  color: black;
+  border: 1px solid #ff9800;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 10px;
+  border-radius: 8px;
+  max-width: 280px;
+  gap: 10px;
+}
+
+.bold-tag {
+  font-weight: 500;
+  gap: 0;
+}
+
+.hero-content h1 {
+  font-size: 55px;
+  color: #333;
+  margin: 10px 0;
+  line-height: 65px;
+}
+
+.hero-content h1 span {
+  color: purple;
+}
+
+.hero-content p {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 25px;
+}
+
+.features {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 25px;
+}
+
+.features span {
+  background: #ffebcc;
+  color: #bb5302;
+  font-weight: 600;
+  padding: 10px 15px;
+  border-radius: 20px;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+}
+
+.award-star {
+  height: 20px;
+  width: 20px;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.hero-buttons button {
+  padding: 20px 30px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.enroll-button {
+  background: purple;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  color: #fff;
+  margin-right: 10px;
+  border-radius: 20px;
+  font-weight: 700;
+}
+
+.know-more-button {
+  background: transparent;
+  color: purple;
+  border: 1px solid #6c63ff;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.hero-buttons img {
+  height: 20px;
+  width: 20px;
+}
+
+.hat-img {
+  height: 24px;
+  width: 24px;
+}
+
+.stats-section {
+  display: flex;
+  justify-content: space-around;
+  padding: 35px 50px;
+  background: #f9ebfc;
+}
+
+.stat {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.stat img {
+  width: 70px;
+  height: 70px;
+}
+
+.stat p {
+  font-size: 28px;
+  color: purple;
+  font-weight: 600;
+}
+
+.stat h2 {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.straight-line {
+  width: 2px;
+  height: 75px;
+  background-color: #e8d4eb;
 }
