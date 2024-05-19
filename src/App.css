@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  font-family: "Montserrat";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+}
+
+.header {
+  background: #f5f5f5;
+  padding: 20px 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 70px;
+}
+
+.navbar-logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar-buttons button {
+  font-weight: 500;
+  font-size: 20px;
+  margin: 0 5px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.login-btn {
+  color: purple;
+  transition: 0.5s;
+  border-radius: 15px;
+}
+
+.login-btn:hover {
+  color: white;
+  background-color: purple;
+}
+
+.signup-btn {
+  background-color: purple;
+  color: white;
+  border-radius: 15px;
+  transition: 0.5s;
+}
+
+.signup-btn:hover {
+  background-color: #f5f5f5;
+  color: purple;
+  border-radius: 15px;
+}
+
+.nav-links-container {
+  height: 45px;
+  background-color: #3b3b3e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-links-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+
+.nav-links-content a {
+  font-size: 20px;
+  color: gray;
+  cursor: pointer;
+  position: relative;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.nav-links-content a:hover {
+  color: #fff;
+}
+
+.nav-links-content a::after {
+  content: "";
+  position: absolute;
+  width: 0px;
+  background-color: orange;
+  height: 4px;
+  bottom: -10px;
+  left: 0;
+  border-radius: 2px;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.nav-links-content a:hover::after {
+  width: 100%;
+}
