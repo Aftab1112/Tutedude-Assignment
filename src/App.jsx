@@ -1,15 +1,13 @@
 import React from "react";
-import Header from "./components/Header";
 import "./App.css";
-import HeroSection from "./components/HeroSection";
-import StatsSection from "./components/StatsSection";
+import CourseCurriclumPage from "./components/CourseCurriclumPage";
+import Home from "./components/Home";
 
 const App = () => {
   return (
     <div className="App">
-      <Header />
-      <HeroSection />
-      <StatsSection />
+      <Home />
+      <CourseCurriclumPage />
     </div>
   );
 };
