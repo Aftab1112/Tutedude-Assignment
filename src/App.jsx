@@ -5,6 +5,7 @@ import Home from "./components/Home";
 import RefundOffer from "./components/RefundOffer";
 import CompaniesHiring from "./components/CompaniesHiring";
 import CertificatesInternships from "./components/CertificatesInternships";
+import InternshipProgram from "./components/InternshipProgram";
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <RefundOffer />
       <CompaniesHiring />
       <CertificatesInternships />
+      <InternshipProgram />
     </div>
   );
 };
