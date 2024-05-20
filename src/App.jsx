@@ -4,6 +4,7 @@ import CourseCurriclumPage from "./components/CourseCurriclumPage";
 import Home from "./components/Home";
 import RefundOffer from "./components/RefundOffer";
 import CompaniesHiring from "./components/CompaniesHiring";
+import CertificatesInternships from "./components/CertificatesInternships";
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <CourseCurriclumPage />
       <RefundOffer />
       <CompaniesHiring />
+      <CertificatesInternships />
     </div>
   );
 };

@@ -617,3 +617,108 @@
   font-size: 1.2rem;
   color: #333;
 }
+
+.certificates-internships-container {
+  margin-top: 50px;
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+}
+
+.new-highlight {
+  color: #992e9d;
+}
+
+.section-title {
+  padding: 20px;
+  font-size: 48px;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.content-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.certificate-heading {
+  padding: 10px;
+  text-align: center;
+  color: #450d45;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.content-card {
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 45%;
+  padding: 20px;
+  text-align: left;
+}
+
+.certificate-card {
+  background-color: #fce4ec;
+}
+
+.internship-card {
+  background-color: #fffde7;
+}
+
+.certificate-image {
+  margin: 0;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.internship-image-div {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+}
+
+.internship-image {
+  margin: auto;
+  width: 90%;
+  border-radius: 20px;
+}
+
+.badge {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.para-bg {
+  background-color: #f4d6f8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px 25px;
+  border-radius: 50px;
+}
+
+.para-bg img {
+  height: 25px;
+  width: 25px;
+}
+
+.internship-header {
+  padding: 10px;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.internship-para {
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+}
