@@ -242,14 +242,14 @@
 }
 
 .stat p {
-  font-size: 28px;
-  color: purple;
-  font-weight: 600;
+  font-size: 24px;
+  font-weight: 400;
 }
 
 .stat h2 {
-  font-size: 24px;
-  font-weight: 400;
+  font-size: 28px;
+  color: purple;
+  font-weight: 600;
 }
 
 .straight-line {
@@ -777,4 +777,62 @@
   margin-top: 10px;
   font-weight: 500;
   text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-logo {
+    font-size: 20px;
+  }
+  .hero-content h1 {
+    font-size: 32px;
+    line-height: 42px;
+  }
+
+  .features span {
+    font-size: 12px;
+    padding: 8px 12px;
+  }
+
+  .hero-buttons button {
+    padding: 15px 20px;
+    font-size: 14px;
+  }
+
+  .course-item {
+    flex-direction: column;
+    align-items: center;
+  }
+  .course-item h3 {
+    text-align: center;
+    margin: 8px 0;
+  }
+  .course-item button {
+    margin-top: 8px;
+  }
+  .badge {
+    gap: 1px;
+  }
+
+  .stats-section {
+    display: none;
+  }
+  .steps {
+    display: none;
+  }
+  .para-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .content-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+  .para-bg {
+    padding: 2px 4px;
+    font-size: 12px;
+  }
+  .orders {
+    flex-direction: column;
+    align-items: center;
+  }
 }

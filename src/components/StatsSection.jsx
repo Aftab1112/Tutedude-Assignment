@@ -9,31 +9,31 @@ const StatsSection = () => {
     <section className="stats-section">
       <div className="stat">
         <img src={laptop} alt="Courses" />
-        <p>
-          24 <h2>Courses</h2>
-        </p>
+        <h2>
+          24 <p>Courses</p>
+        </h2>
       </div>
       <div className="straight-line"></div>
       <div className="stat">
         <img src={graduated} alt="graduated" />
-        <p>
-          30k+ <h2>Learners</h2>
-        </p>
+        <h2>
+          30k+ <p>Learners</p>
+        </h2>
       </div>
       <div className="straight-line"></div>
       <div className="stat">
         <img src={question} alt="question" />
-        <p>
+        <h2>
           {" "}
-          100k+ <h2>Doubts Solved</h2>
-        </p>
+          100k+ <p>Doubts Solved</p>
+        </h2>
       </div>
       <div className="straight-line"></div>
       <div className="stat">
         <img src={complete} alt="complete" />
-        <p>
-          10k+ <h2>Student Projects</h2>
-        </p>
+        <h2>
+          10k+ <p>Student Projects</p>
+        </h2>
       </div>
     </section>
   );
